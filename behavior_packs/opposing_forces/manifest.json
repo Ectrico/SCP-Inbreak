@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "SCP:Opposing Forces - GameMode",
+    "description": "My behavior pack description",
+    "uuid": "01d9e39a-da98-4d1f-bc61-700ab7f4ea9c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "7c7e693f-99f4-41a9-95e0-1f57b37e1e12",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.14.0-beta"
+    },
+    {
+      "uuid": "e9fe2f95-fec2-42c6-99db-bfe609d31d7b",
+      "version": [1, 0, 0]
+    }
+  ]
+}
