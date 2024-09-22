@@ -29,6 +29,8 @@ products:
 --使用方法--  
 一、配置模式  
 打开行为文件的main.js  
+// 模式管理员配置，您将可以使用#help等模式控制指令，将以下字段改成你自己的玩家ID，例如：["test1", "test2"]  
+var Admin = ["Ectrico", "whz2006", "Removenuke", "A POTATO awa"];  
 修改以下内容为你的地图坐标  
 // MTF刷新位置  
 var SpawnPointNTF = [  
